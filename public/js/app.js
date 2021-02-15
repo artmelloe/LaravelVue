@@ -38027,7 +38027,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("h3", { staticClass: "text-center" }, [_vm._v("Editar nota")]),
+    _c("h3", { staticClass: "text-center" }, [_vm._v("Nova nota")]),
     _vm._v(" "),
     _c(
       "form",
