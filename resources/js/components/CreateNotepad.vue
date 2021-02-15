@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3 class="text-center">Editar nota</h3>
+        <h3 class="text-center">Nova nota</h3>
         <form @submit.prevent="addNotepad">
             <div class="form-group">
                 <label for="formTitle">Título</label>
