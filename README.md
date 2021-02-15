@@ -14,7 +14,7 @@ Aplicação desenvolvida em PHP com Laravel/MySQL/Vue.
   - Atualizar as dependências com o composer ($ composer install);
   - Criar o database no MySQL (basta apenas a base);
   - Configurar o arquivo ".env" com os dados do database;
-  - Rodar o comando de migration/seed (ver: migrations e dummy datas);
+  - Rodar o comando de migrate/seed (ver: migrations e dummy datas);
   - Gerar uma nova chave para a aplicação (ver: chave de encriptação);
   - Fazer o apontamento da pasta "public/" da aplicação no servidor (ou);
   - Startar a aplicação com o serve nativo ($ php artisan serve).
