@@ -11,10 +11,13 @@ Aplicação desenvolvida em PHP com Laravel/MySQL/Vue.
 
 # Configuração
 
-  - Atualizar as dependências com o "composer";
+  - Atualizar as dependências com o composer ($ composer install);
+  - Criar o banco de dados no MySQL (basta apenas a base);
   - Configurar o arquivo ".env" com os dados do database;
+  - Rodar o comando de migration/seed (ver: migrations e dummy datas)
+  - Gerar uma nova chave para a aplicação (ver: chave de encriptação)
   - Fazer o apontamento da pasta "public/" da aplicação no servidor (ou);
-  - Rodar o comando "php artisan serve" para startar o aplicação.
+  - Startar o aplicação com o serve nativo ($ php artisan serve).
 
 # Migrations e dummy datas
 
@@ -27,6 +30,15 @@ $ php artisan migrate
 Processando **dummy data**:
 ```sh
 $ php artisan db:seed
+```
+
+# Chave de encriptação
+
+A aplicação necessita de uma nova chave de encriptação toda vez que um novo projeto for instanciado. 
+
+Processando **chave de encriptação**:
+```sh
+$ php artisan key:generate
 ```
 
 # Requisições

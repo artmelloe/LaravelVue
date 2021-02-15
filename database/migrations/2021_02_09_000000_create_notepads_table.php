@@ -16,7 +16,7 @@ class CreateNotepadsTable extends Migration
         Schema::create('notepads', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('description');
+            $table->mediumText('description');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });
