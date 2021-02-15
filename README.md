@@ -16,7 +16,6 @@ Aplicação desenvolvida em PHP com Laravel/MySQL/Vue.
   - Configurar o arquivo ".env" com os dados do database;
   - Rodar o comando de migrate/seed (ver: migrations e dummy datas);
   - Gerar uma nova chave para a aplicação (ver: chave de encriptação);
-  - Fazer o apontamento da pasta "public/" da aplicação no servidor (ou);
   - Startar a aplicação com o serve nativo ($ php artisan serve).
 
 # Migrations e dummy datas
