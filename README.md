@@ -12,7 +12,7 @@ Aplicação desenvolvida em PHP com Laravel/MySQL/Vue.
 # Configuração
 
   - Atualizar as dependências com o composer ($ composer install);
-  - Criar o banco de dados no MySQL (basta apenas a base);
+  - Criar o database no MySQL (basta apenas a base);
   - Configurar o arquivo ".env" com os dados do database;
   - Rodar o comando de migration/seed (ver: migrations e dummy datas)
   - Gerar uma nova chave para a aplicação (ver: chave de encriptação)
