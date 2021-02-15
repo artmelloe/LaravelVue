@@ -68,7 +68,7 @@ Exemplos da entidade **Nota**:
 - **Body:**
 ```json
 {
-	"title": "Nota de compra",
+	"title": "Nota de teste",
 	"description": "Essa nota é show!"
 }
 ```
